@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EBDM</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrap">
+        <div class="container active" id="lista">
+            <h2>Tomador de decisiones</h2>
+            <div class="form" id="form">
+                <div class="row">
+                    <label>Ingresa una opcion:</label>
+                    <input type="text" class="choice" value="">
+                </div>
+                <div class="row">
+                    <label>Ingresa una opcion:</label>
+                    <input type="text" class="choice" value="">
+                </div>
+                <div class="row">
+                    <label>Ingresa una opcion:</label>
+                    <input type="text" class="choice" value="">
+                </div>
+            </div>
+            <button type="button" class="btn" onclick="agregarItem('form')">Agregar otro item</button>
+            <hr>
+            <button class="btn btn-success" onclick="validar()">Generar comparaciones</button>
+        </div>
+        <div class="container" id="comparaciones">
+            <h2>Elija una</h2>
+            <div class="eleccion btn" id="eleccion1"></div>
+            vs
+            <div class="eleccion btn" id="eleccion2"></div>
+        </div>
+        <div class="container" id="resultados">
+            <h2>Resultados</h2>
+            
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

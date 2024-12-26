@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrap {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+}
+@keyframes crecer {
+    from{transform:scale(0)}
+    to{transform:scale(1)}
+}
+.container {
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow:  -5px 5px 15px #bebebe,
+                  5px -5px 15px #ffffff;
+    padding: 50px;
+    text-align: center;
+    animation: 0.5s crecer ease-in-out;
+}
+
+h2{margin-bottom:20px}
+#comparaciones, #resultados{display:none;}
+
+.row{margin-bottom:10px;}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background: #f0f0f0;
+    box-shadow:  5px 5px 15px #bebebe,
+                -5px -5px 15px #ffffff;
+}
+.btn-success {
+    background: teal;
+    color: #fff;
+}
+
+.eleccion{
+    margin: 20px 0;
+}
+.eleccion:hover{
+    background-color: ghostwhite;
+}
+
+.choice{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 27px;
+    background: #f0f0f0;
+    box-shadow: inset 5px 5px 10px #d1d1d1,
+                 inset -5px -5px 10px #ffffff;
+}
