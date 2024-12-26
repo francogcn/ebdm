@@ -20,7 +20,7 @@
     width: 400px;
     margin: auto;
     border-radius: 20px;
-    box-shadow:  2px 2px 30px #bebebe, -2px -2px 30px #ffffff
+    box-shadow:  2px 2px 30px #bebebe, -2px -2px 30px #ffffff;
     padding: 50px;
     text-align: center;
     animation: 0.5s crecer ease-in-out;
