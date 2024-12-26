@@ -44,6 +44,7 @@ hr{
     background: #f0f0f0;
     box-shadow:  5px 5px 15px #bebebe,
                 -5px -5px 15px #ffffff;
+    font-family: 'Montserrat';
 }
 .btn-success {
     background: teal;
@@ -62,6 +63,7 @@ hr{
     outline: none;
     padding: 10px;
     border-radius: 27px;
+    font-family:'Montserrat';
     background: #f0f0f0;
     box-shadow: inset 5px 5px 10px #d1d1d1,
                  inset -5px -5px 10px #ffffff;
